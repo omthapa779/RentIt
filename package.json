@@ -1,0 +1,25 @@
+{
+  "name": "rentit",
+  "version": "1.0.0",
+  "description": "Peer-to-peer rental platform for Nepal where users can **rent** or **lend** anything – from cameras, guitars, dresses, books, tents to tools. Think \"Airbnb for stuff\" – built for the Nepali market 🇳🇵.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix web\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omthapa779/RentIt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/omthapa779/RentIt/issues"
+  },
+  "homepage": "https://github.com/omthapa779/RentIt#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
