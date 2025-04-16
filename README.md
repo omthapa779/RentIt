@@ -58,12 +58,16 @@ Mobile App (Expo)
 ## 📌 Setup Notes
 Make sure MongoDB Atlas is set up and .env file contains:
   - MONGO_URI=your_mongodb_connection_string
+
 Firebase project should be created and config added to both web and app side for auth.
+
 Avoid pushing node_modules/, .env, dist/, or build/ folders – ensure .gitignore is present.
 
 ## 👥 Team
 Web App: Om Thapa
+
 Mobile App: Bikarsha Ojha
+
 Backend: Shared
 
 ## 📄 License
