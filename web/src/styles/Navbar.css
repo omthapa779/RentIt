@@ -5,3 +5,29 @@
 .copyright{
     background-color: var(--color-extra_dark);
 }
+.links_holder h5 {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    transition: color 0.3s ease; /* Smooth text color transition */
+    text-align: left; /* Ensure proper alignment */
+}
+
+.links_holder h5::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0; /* Start from the left edge of the text */
+    width: 0; /* Initially hidden */
+    height: 0.3vh; /* Thickness of the underline */
+    background-color: var(--color-primary); /* Underline color */
+    transition: width 0.3s ease; /* Smooth animation for width */
+}
+
+.links_holder h5:hover {
+    color: var(--color-primary); /* Change text color on hover */
+}
+
+.links_holder h5:hover::after {
+    width: 100%; /* Expand the underline to match the text's width */
+}

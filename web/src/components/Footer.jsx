@@ -20,57 +20,57 @@ function Footer(){
                     <h4 className="light_cl font_w500 w_100 text_ar">Contact.rentit@gmail.com | +977-9814926692</h4>
                 </div>
             </div>
-            <div className="footer_content grid col_4 padding_s10 padding_vxs pbottom_10vh">
+            <div className="footer_content grid col_4 padding_s10 padding_vs">
                 <div className="collections_footer flex_cl justify_c">
                     <h4 class="text_white">Collections</h4>
-                    <div className="links_holder flex_cl mtop_2vh">
-                        <h5 className="light_cl font_w500">Electronics and Essentials</h5>
-                        <h5 className="light_cl font_w500">Laptops and Smartphones</h5>
-                        <h5 className="light_cl font_w500">Hotels and Apartments</h5>
-                        <h5 className="light_cl font_w500">Clothing & Thrift</h5>
-                        <h5 className="light_cl font_w500">Musical Instruments</h5>
-                        <h5 className="light_cl font_w500">Books & Study Materials</h5>
-                        <h5 className="light_cl font_w500">Adventure & Travel Gears</h5>
+                    <div className="links_holder flex_cl gap_xsvh mtop_2vh">
+                        <h5 className="light_cl w_fc font_w500">Electronics and Essentials</h5>
+                        <h5 className="light_cl w_fc font_w500">Laptops and Smartphones</h5>
+                        <h5 className="light_cl w_fc font_w500">Hotels and Apartments</h5>
+                        <h5 className="light_cl w_fc font_w500">Clothing & Thrift</h5>
+                        <h5 className="light_cl w_fc font_w500">Musical Instruments</h5>
+                        <h5 className="light_cl w_fc font_w500">Books & Study Materials</h5>
+                        <h5 className="light_cl w_fc font_w500">Adventure & Travel Gears</h5>
                     </div>
-                    <h5 className="light_cl font_w500 mtop_2vh">Explore More...</h5>
+                    <h5 className="light_cl w_fc font_w500 mtop_2vh">Explore More...</h5>
                 </div>
 
                 <div className="RentIt flex_cl">
                     <h4 className="text_white">RentIt.</h4>
 
-                    <div className="links_holder flex_cl mtop_2vh">
-                        <h5 className="light_cl font_w500">About Rentit.</h5>
-                        <h5 className="light_cl font_w500">Careers</h5>
-                        <h5 className="light_cl font_w500">How it Works</h5>
+                    <div className="links_holder flex_cl gap_xsvh mtop_2vh">
+                        <h5 className="light_cl w_fc font_w500">About Rentit.</h5>
+                        <h5 className="light_cl w_fc font_w500">Careers</h5>
+                        <h5 className="light_cl w_fc font_w500">How it Works</h5>
                     </div>
                 </div>
 
                 <div className="Support flex_cl">
                     <h4 className="text_white">Support</h4>
 
-                    <div className="links_holder flex_cl mtop_2vh">
-                        <h5 className="light_cl font_w500">Contact Us</h5>
-                        <h5 className="light_cl font_w500">FAQ</h5>
-                        <h5 className="light_cl font_w500">Notice / Updates</h5>
-                        <h5 className="light_cl font_w500">Terms & Conditions</h5>
-                        <h5 className="light_cl font_w500">Report Errors and Bugs</h5>
+                    <div className="links_holder flex_cl gap_xsvh mtop_2vh">
+                        <h5 className="light_cl w_fc font_w500">Contact Us</h5>
+                        <h5 className="light_cl w_fc font_w500">FAQ</h5>
+                        <h5 className="light_cl w_fc font_w500">Notice / Updates</h5>
+                        <h5 className="light_cl w_fc font_w500">Terms & Conditions</h5>
+                        <h5 className="light_cl w_fc font_w500">Report Errors and Bugs</h5>
                     </div>
                 </div>
 
                 <div className="Quick_links flex_cl">
                     <h4 className="text_white">Quick Links</h4>
 
-                    <div className="links_holder flex_cl mtop_2vh">
-                        <h5 className="light_cl font_w500">Home</h5>
-                        <h5 className="light_cl font_w500">Browse Listings</h5>
-                        <h5 className="light_cl font_w500">Categories</h5>
-                        <h5 className="light_cl font_w500">Most Popular</h5>
-                        <h5 className="light_cl font_w500">Renters List</h5>
-                        <h5 className="light_cl font_w500">Dashboard</h5>
-                        <h5 className="light_cl font_w500">Register New User</h5>
+                    <div className="links_holder flex_cl gap_xsvh mtop_2vh">
+                        <h5 className="light_cl w_fc font_w500">Home</h5>
+                        <h5 className="light_cl w_fc font_w500">Browse Listings</h5>
+                        <h5 className="light_cl w_fc font_w500">Categories</h5>
+                        <h5 className="light_cl w_fc font_w500">Most Popular</h5>
+                        <h5 className="light_cl w_fc font_w500">Renters List</h5>
+                        <h5 className="light_cl w_fc font_w500">Dashboard</h5>
+                        <h5 className="light_cl w_fc font_w500">Register New User</h5>
                     </div>
 
-                    <h5 className="light_cl font_w500 mtop_2vh">Login</h5>
+                    <h5 className="light_cl w_fc font_w500 mtop_2vh">Login</h5>
                 </div>
             </div>
 
