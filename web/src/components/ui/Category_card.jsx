@@ -5,9 +5,9 @@ import '../../styles/Global.css';
 const Category_card = ({ category_title , category_description, image_url}) => {
     return(
         <>
-        <div className="cateogry_card w_100 h_35vh bg_white grid col_2 padding_s gap_2vh">
+        <div className="cateogry_card w_100 h_fc bg_white grid col_2 padding_s gap_2vh">
             <div className="image_holder_category w_100 h_100">
-                <img src={image_url} alt="electronics" className="w_100 h_100 object_fc aspect_16_9" />
+                <img src={image_url} alt="electronics" className="w_100 h_30vh object_fc aspect_16_9" />
             </div>
             <div className="card_category_content w_100 h_100 flex_cl justify_fe gap_1vh">
                 <h3>{category_title}</h3>

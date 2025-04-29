@@ -3,7 +3,7 @@ import Category_card from '../../components/ui/Category_card';
 
 function Featured_categories(){
     return(
-        <section className="featured_category w_100 h_100vh padding_s5 bg_light padding_vs">
+        <section className="featured_category w_100 h_fc padding_s5 bg_light padding_vs">
             <h2 className="primary_cl">Featured Categories</h2>
 
             <div className="grid w_100 col_2 mtop_5vh gap_2vh">

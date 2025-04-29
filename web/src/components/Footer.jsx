@@ -16,7 +16,7 @@ function Footer(){
                     <h3 className="light_cl font_w500"><i className="ri-linkedin-fill"></i></h3>
                     <h3 className="light_cl font_w500"><i className="ri-tiktok-line"></i></h3>
                 </div>
-                <div className="contact_footer flex align_c h_100 w_100 text_ar">
+                <div className="contact_footer flex align_c h_100 w_100">
                     <h4 className="light_cl font_w500 w_100 text_ar">Contact.rentit@gmail.com | +977-9814926692</h4>
                 </div>
             </div>

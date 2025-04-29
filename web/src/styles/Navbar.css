@@ -1,6 +1,6 @@
 .socials_holder_footer{
-    border-top: 0.2vw solid var(--color-black_light);
-    border-bottom: 0.2vw solid var(--color-black_light);
+    border-top: 0.1vw solid var(--color-black_light);
+    border-bottom: 0.1vw solid var(--color-black_light);
 }
 .copyright{
     background-color: var(--color-extra_dark);
@@ -30,4 +30,17 @@
 
 .links_holder h5:hover::after {
     width: 100%; /* Expand the underline to match the text's width */
+}
+
+@media(max-width:999px){
+    .contact_footer>h4, .footer_logo_holder{
+        text-align: left !important;
+    }
+    .footer_logo_holder{
+        justify-content: flex-start !important;
+        padding-left: 10vw;
+    }
+    .footer_content {
+        gap: 10vw;
+    }
 }

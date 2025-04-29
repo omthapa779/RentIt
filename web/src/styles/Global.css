@@ -47,6 +47,9 @@ h5{
 .h_10vh{
     height: 10vh;
 }
+.h_20vh{
+    height: 20vh;
+}
 .h_30vh{
     height: 30vh;
 }
@@ -267,4 +270,35 @@ h5{
 }
 .col_4{
     grid-template-columns: repeat(4, 1fr);
+}
+
+
+@media(max-width: 999px){
+    h1{
+        font-size: 6vw;
+    }
+    h2{
+        font-size: 5vw;
+    }
+    h3{
+        font-size: 3vw;
+    }
+    h4{
+        font-size: 2.5vw;
+    }
+    h5{
+        font-size: 2vw;
+    }
+    
+    .col_2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .col_4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .padding_vs {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
 }
