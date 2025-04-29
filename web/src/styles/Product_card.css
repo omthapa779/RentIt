@@ -1,0 +1,32 @@
+.product_card_title{
+    grid-template-columns: 20fr 1fr;
+    justify-content: space-between;
+}
+.category_tag{
+    padding: 0.5vh 1vw;
+    border: 0.1px solid var(--color-black_light);
+    width: fit-content;
+    text-transform: uppercase;
+    margin-top: 1%;
+}
+.love_button{
+    background: none;
+    outline: none;
+    border: none;
+}
+.love_button i {
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition for scaling and color */
+}
+
+.love_button:hover i {
+    transform: scale(1.3); /* Scale up the icon slightly */
+    color: rgb(230, 18, 18); /* Change the color to red on hover */
+}
+.Product_card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scaling and shadow */
+}
+
+.Product_card:hover {
+    transform: scale(1.02); /* Slightly scale up the card */
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.2); /* Add a subtle shadow using vh units */
+}
