@@ -44,3 +44,15 @@
         gap: 10vw;
     }
 }
+@media(max-width: 699px) {
+    .left_nav{
+        display: none !important
+    }
+    .navbar{
+        flex-direction: row-reverse !important;
+    }
+    .right_nav{
+        flex-direction: row-reverse !important;
+        gap: 5vw !important;
+    }
+}

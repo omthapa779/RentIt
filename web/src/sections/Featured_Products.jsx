@@ -68,7 +68,9 @@ function Featured_Products(){
                     image_url="https://images.pexels.com/photos/12976807/pexels-photo-12976807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 />
             </div>
-            <PrimaryButton className="mtop_5vh"> Load More </PrimaryButton>
+            <div className="button_holder w_100 flex justify_c">
+                <PrimaryButton className="mtop_5vh w_fc"> Load More </PrimaryButton>
+            </div>
         </section>
         </>
     );
