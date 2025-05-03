@@ -22,7 +22,7 @@ function Footer(){
             </div>
             <div className="footer_content grid col_4 padding_s10 padding_vs">
                 <div className="collections_footer flex_cl justify_c">
-                    <h4 class="text_white">Collections</h4>
+                    <h4 className="text_white">Collections</h4>
                     <div className="links_holder flex_cl gap_xsvh mtop_2vh">
                         <h5 className="light_cl w_fc font_w500">Electronics and Essentials</h5>
                         <h5 className="light_cl w_fc font_w500">Laptops and Smartphones</h5>
