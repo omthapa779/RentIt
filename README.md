@@ -68,7 +68,8 @@ Web App: Om Thapa
 
 Mobile App: Bikarsha Ojha
 
-Backend: Shared
+UI / UX: Shreejesh Raj Joshi
+
 
 ## 📄 License
 MIT – Open to ideas and improvements. Let's build something that helps Nepal move forward.
