@@ -68,6 +68,8 @@ Web App: Om Thapa
 
 Mobile App: Bikarsha Ojha
 
+UI / UX: Shreejesh Raj Joshi
+
 Backend: Shared
 
 ## 📄 License
