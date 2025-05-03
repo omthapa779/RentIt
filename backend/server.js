@@ -14,8 +14,8 @@ app.use(express.json());
 app.get('/', (req, res) => res.send('API Running'));
 
 //routes
-import authRoutes  from './routes/auth.js';
-app.use('/api/auth/', authRoutes );
+import router from './routes/auth.js';
+app.use('/api/auth/', router );
 
 
 //connect DB and start Server
