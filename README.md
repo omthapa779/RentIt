@@ -70,7 +70,6 @@ Mobile App: Bikarsha Ojha
 
 UI / UX: Shreejesh Raj Joshi
 
-Backend: Shared
 
 ## 📄 License
 MIT – Open to ideas and improvements. Let's build something that helps Nepal move forward.
