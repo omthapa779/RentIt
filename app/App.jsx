@@ -1,11 +1,13 @@
 import React from 'react';
-import { StyleSheet, View, Image, Text } from 'react-native';
+import { StyleSheet, View, Image, Text,Button } from 'react-native';
 
 export default function App() {
+//     logo and text
   return (
     <View style={styles.container}>
       <Image source={require('./assets/logo.jpg')} style={styles.logo} />
       <Text style={styles.text}>Rental Platform Nepal 🇳🇵</Text>
+      <Button title="Rent an Item now!" />
     </View>
   );
 }
