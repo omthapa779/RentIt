@@ -2,7 +2,7 @@
   "name": "rentit",
   "version": "1.0.0",
   "description": "Peer-to-peer rental platform for Nepal where users can **rent** or **lend** anything – from cameras, guitars, dresses, books, tents to tools. Think \"Airbnb for stuff\" – built for the Nepali market 🇳🇵.",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix web\""
@@ -23,6 +23,9 @@
     "concurrently": "^9.1.2"
   },
   "dependencies": {
-    "react-router-dom": "^7.5.3"
+    "mongoose": "^8.14.1",
+    "nodemon": "^3.1.10",
+    "react-router-dom": "^7.5.3",
+    "vite": "^6.3.4"
   }
 }
